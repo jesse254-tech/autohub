@@ -22,6 +22,7 @@
           <li class="nav-item"><a class="nav-link <?= $active === 'home' ? 'active' : '' ?>" href="index.php">Home</a></li>
           <li class="nav-item"><a class="nav-link <?= $active === 'inventory' ? 'active' : '' ?>" href="inventory.php">Inventory</a></li>
           <li class="nav-item"><a class="nav-link <?= $active === 'about' ? 'active' : '' ?>" href="about.php">About</a></li>
+          <li class="nav-item"><a class="nav-link <?= $active === 'sell' ? 'active' : '' ?>" href="sell.php">Sell Your Car</a></li>
           <li class="nav-item"><a class="nav-link btn btn-brand text-white ms-lg-3 px-3" href="contact.php">Contact</a></li>
         </ul>
       </div>

@@ -4,9 +4,10 @@ A multipage car dealership website built with Bootstrap, PHP, and MySQL.
 
 ## Pages
 
-- **Home** — hero, featured cars, and highlights
+- **Home** — hero, featured cars, highlights, testimonials, and FAQ
 - **Inventory** — all cars with filters (make, body type, max price, search)
 - **Car detail** — full specs and an enquiry form for each car
+- **Sell Your Car** — a valuation request form
 - **About** — the dealership story
 - **Contact** — an enquiry form
 
@@ -15,7 +16,8 @@ A multipage car dealership website built with Bootstrap, PHP, and MySQL.
 - Multipage layout with shared header/footer includes
 - Dynamic listings and detail pages from the database
 - Filtering and search on the inventory page
-- Enquiries saved to the database
+- Customer testimonials and an FAQ accordion
+- Enquiries (buying and selling) saved to the database
 - Responsive Bootstrap layout
 
 ## Built With
@@ -38,6 +40,7 @@ autohub/
 ├── index.php          # home
 ├── inventory.php      # listings + filters
 ├── car.php            # car detail + enquiry
+├── sell.php           # sell your car
 ├── about.php
 ├── contact.php
 ├── includes/          # db, functions, header, footer, car card

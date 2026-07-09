@@ -46,6 +46,47 @@ require __DIR__ . '/includes/header.php';
     </div>
   </section>
 
+  <section class="section bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Happy Drivers</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4"><div class="testi-card"><p>"Smooth, honest process from start to finish. I drove away the same day in a great car."</p><div class="testi-who"><strong>Kevin M.</strong><span>Nairobi</span></div></div></div>
+        <div class="col-md-4"><div class="testi-card"><p>"They let me take my time and answered every question. No pressure at all — just good service."</p><div class="testi-who"><strong>Faith W.</strong><span>Thika</span></div></div></div>
+        <div class="col-md-4"><div class="testi-card"><p>"The car was exactly as described and the papers were clean. I'd happily buy from them again."</p><div class="testi-who"><strong>Samuel K.</strong><span>Nakuru</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Good to Know</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="accordion faq-acc" id="faqAcc">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Do you offer financing?</button></h2>
+          <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Yes. We work with several banks and SACCOs and can help you arrange asset finance with flexible repayment terms.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Are the cars inspected?</button></h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Every vehicle is checked by our mechanics and road-tested before it reaches the showroom floor.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Can I trade in my current car?</button></h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Absolutely. Bring your car in for a free valuation and we'll offset it against your next purchase.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Do you help with logbook transfer?</button></h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Yes. Our team handles the full NTSA transfer process so your ownership is sorted before you drive off.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="cta-band">
     <div class="container">
       <h2>Ready to find your car?</h2>

@@ -92,3 +92,17 @@ h1, h2, h3, h5, .navbar-brand, .footer-brand { font-family: 'Montserrat', sans-s
 .site-footer i { color: var(--accent); margin-right: 6px; }
 .site-footer hr { border-color: #333d4a; margin: 30px 0 20px; }
 .footer-copy { color: #7d8896; font-size: 14px; }
+
+/* Testimonials */
+.testi-card { background: #fff; border-radius: 14px; padding: 26px; box-shadow: 0 6px 20px rgba(0,0,0,0.07); height: 100%; }
+.testi-card p { font-style: italic; color: #444; margin-bottom: 16px; }
+.testi-who strong { display: block; color: var(--ink); }
+.testi-who span { color: #888; font-size: 14px; }
+
+/* FAQ */
+.faq-acc { max-width: 780px; margin: 0 auto; }
+.faq-acc .accordion-button:not(.collapsed) { background: var(--ink); color: #fff; }
+.faq-acc .accordion-button:focus { box-shadow: none; }
+
+/* Sell form */
+.sell-form { background: #fff; border-radius: 14px; padding: 28px; box-shadow: 0 6px 20px rgba(0,0,0,0.07); }
